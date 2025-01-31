@@ -14,7 +14,7 @@ app.use(express.json());
 // Connect to MongoDB with error handling
 async function connectDB() {
     try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/Main_Blog');
+        await mongoose.connect('mongodb+srv://mythilip2023cse:Mythili@13@mythili.avtia.mongodb.net/');
         console.log('Successfully connected to MongoDB.');
     } catch (err) {
         console.error('MongoDB connection error:', err);
